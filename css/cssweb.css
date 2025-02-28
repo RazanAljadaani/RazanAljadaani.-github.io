@@ -1,0 +1,158 @@
+/* Assignment 1 | Razan Mohammed Aljadaani | 2210535 | E1 */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.nav-logo {
+    width: 65px;
+    height: 65px;
+    border-radius: 55px;
+    border: 1px solid transparent;
+}
+
+header {
+    background: #034282;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+nav {
+    background: #00264d;
+    padding: 12px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+ul li {
+    margin-bottom: 3px;
+}
+
+section {
+    padding: 25px;
+    max-width: 850px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: justify;
+}
+
+h2 {
+    color: #004080;
+    border-bottom: 2px solid #004080;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+ul {
+    padding-left: 20px;
+    list-style: none;
+}
+
+.project {
+    background: #e6f2ff;
+    padding: 18px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    transition: transform 0.3s ease;
+}
+
+
+.project:hover {
+    transform: scale(1.02);
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #004080;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.project a:hover {
+    color: #ab08d8;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #00264d;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 14px;
+}
+section:hover {
+    box-shadow: 0 6px 15px rgba(98, 96, 96, 0.15);
+    transform: translateY(-3px);
+    transition: all 0.3s ease-in-out;
+}
+#Contact a i {
+    margin-right: 15px;
+    font-size: 20px;
+}
+@media (max-width: 576px) {
+    .container {
+        max-width: 95%;
+        padding: 5px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+        padding: 10px;
+    }
+    header h1 {
+        font-size: 24px;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 85%;
+        padding: 15px;
+    }
+    header h1 {
+        font-size: 28px;
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+}
